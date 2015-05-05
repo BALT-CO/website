@@ -1,0 +1,17 @@
+#work {
+	ul {
+		@include flexbox();
+		flex-wrap: wrap;
+		li {
+			@include flexbox();
+			width: 50%;
+			background: #0f0;
+			color: #000;
+			.border {
+				background: #fff;				
+				width: 99%;
+				margin: auto;
+			}
+		}
+	}
+}
