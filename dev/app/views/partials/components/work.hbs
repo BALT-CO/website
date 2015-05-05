@@ -1,3 +1,15 @@
 <section id="work">
-	<div class="inner"></div>
+	<div class="inner">
+		<h2>Work</h2>
+		<ul>
+		{{#each this}}
+			<li>
+				<div class="border">
+					<h1>{{{ client }}}</h1>
+					<h3>{{{ name }}}</h3>
+				</div>
+			</li>
+		{{/each}}
+		</ul>
+	</div>
 </section>
