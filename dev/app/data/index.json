@@ -1,15 +1,12 @@
 {
 	"head":{
-		"title":"",
-		"description":"",
+		"title":"BALT",
+		"description":"Digital Experiential Interactive Delicious",
 		"keywords":"",
 		"styles":[
-			"",
-			"",
 			""
 		],
 		"scripts":[
-			"",
 			""
 		],
 		"social":{
@@ -33,12 +30,25 @@
 
 	"foot":{
 		"scripts":[
-			"",
 			""
 		]
 	},
 
 	"content":{
-		"":""
+		"hero":{
+			
+		},
+		"awards":{
+			
+		},
+		"clients":{
+
+		},
+		"work":{
+			
+		},
+		"footer":{
+			
+		}
 	}
 }
