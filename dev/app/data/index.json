@@ -1,10 +1,11 @@
 {
 	"head":{
 		"title":"BALT",
-		"description":"Digital Experiential Interactive Delicious",
+		"description":"Digital Interactive Experiences",
 		"keywords":"",
+		"favicon":"assets/images/favicon.ico",
 		"styles":[
-			""
+			"assets/css/styles.css"
 		],
 		"scripts":[
 			""
@@ -35,20 +36,311 @@
 	},
 
 	"content":{
+		"logo":"assets/images/BALT.svg",
+		"quotes":[
+			{
+				"copy":"",
+				"source":""
+			}
+		],
 		"hero":{
-			
 		},
-		"awards":{
-			
-		},
-		"clients":{
-
-		},
-		"work":{
-			
-		},
+		"awards":[
+			{
+				"name":"Cannes Lion",
+				"rank":"Silver",
+				"image":"",
+				"href":"",
+				"quantity":"2"
+			},
+			{
+				"name":"Cannes Lion",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"Clio",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"2"
+			},
+			{
+				"name":"FITC",
+				"rank":"Silver",
+				"image":"",
+				"href":"",
+				"quantity":"2"
+			},
+			{
+				"name":"FWA",
+				"rank":"",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"One Show Pencil",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"One Show Pencil",
+				"rank":"Bronze",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"Webby",
+				"rank":"",
+				"image":"",
+				"href":"",
+				"quantity":"4"
+			},
+			{
+				"name":"Awwwards",
+				"rank":"",
+				"image":"",
+				"href":"",
+				"quantity":"2"
+			},
+			{
+				"name":"Art Directors Club",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"Pixel Award",
+				"rank":"Experimental",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"W3 Awards",
+				"rank":"Silver",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"Jay Chiat",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"LIA",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"Design Taxi",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"2"
+			},
+			{
+				"name":"Creativity 42",
+				"rank":"Platinum",
+				"image":"",
+				"href":"",
+				"quantity":"3"
+			}
+		],
+		"clients":[
+			{
+				"name":"Kraft",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Stella Artois",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Windex",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Stride Gum",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Bottega Veneta",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Moet & Chandon",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"L'Oreal",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Davis Brody Bond",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Conde Nast",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Kenneth Cole",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Desigual",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Chase",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"American Express",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Ford",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"AOL",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Time Inc.",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Time Warner",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Nokia",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"MTV",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Maybelline",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Novartis",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Pfizer",
+				"image":"",
+				"href":""
+			}
+		],
+		"work":[
+			{
+				"name":"Written In The Stars",
+				"client":"AKQA",
+				"description":"To share the holiday cheer, users are thrown into an audio/visual exploration in the palm of their hands with this web application.  When receiving a message from a friend, users enter a stary sky in search of the North Star.  Upon finding it, a particle animation ensues as a custom Radiohead soundtrack plays through their speakers or headphones.  Alternatively users can write their own message in the sky and share the experience on social media or by email.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":""
+			},
+			{
+				"name":"Trail View",
+				"client":"Nature Valley",
+				"description":"Celebrating America's natural wonders cannot be better represented achieved that actually going to the locations and exploring all the hidden views they have to offer.  Nature Valley's Trail View Google map web experience was a first of it's kind, allowing users to use Google streetview to explore Yosemite, Grand Canyon, Sequoia, and the Great Smokies.  Along the trail facts about local wildlife, elevation, direction, and a swath of other content ias accessible for the user to discover.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":""
+			},
+			{
+				"name":"View Points",
+				"client":"Kenneth Cole",
+				"description":"For Fashion Week in New York City, brands have been trying to harness hip approaches to captivating their audience's attention; what better way that combining social video with a live event?  We harnessed the power of Vine's technology to allow users to explore varying angles of the same fashion show for Kenneth Cole.  Users could view on their phone or desktop computers and watch the show as it happened or go back in time and experience the show from the beginning.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":""
+			},
+			{
+				"name":"",
+				"client":"(RED)",
+				"description":"Bono's charity (RED) was struggling with sales; having depended on print ads their online experience was minimal so they needed an overhaul and their e-commerce experience was born.  With accessible products and sympathetic stories, we wove together an experience online that touched people outside of their computers that urged them to contribute.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":""
+			},
+			{
+				"name":"MyMoet",
+				"client":"Moet & Chandon",
+				"description":"A web experience that allowed users to customize a Moet & Chandon champagne bottle of their choice and purchase it online.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":""
+			}
+		],
 		"footer":{
 			
 		}
 	}
 }
+
