@@ -37,14 +37,9 @@
 
 	"content":{
 		"logo":"assets/images/BALT.svg",
-		"quotes":[
-			{
-				"copy":"",
-				"source":""
-			}
-		],
 		"hero":{
 		},
+
 		"awards":[
 			{
 				"name":"Cannes Lion",
@@ -159,6 +154,7 @@
 				"quantity":"3"
 			}
 		],
+
 		"clients":[
 			{
 				"name":"Kraft",
@@ -271,6 +267,7 @@
 				"href":""
 			}
 		],
+
 		"work":[
 			{
 				"name":"Written In The Stars",
@@ -312,9 +309,22 @@
 				"href":""
 			},
 			{
-				"name":"",
+				"name":"E-commerce Charity",
 				"client":"(RED)",
 				"description":"Bono's charity (RED) was struggling with sales; having depended on print ads their online experience was minimal so they needed an overhaul and their e-commerce experience was born.  With accessible products and sympathetic stories, we wove together an experience online that touched people outside of their computers that urged them to contribute.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":""
+			},
+			{
+				"name":"Our Book of Liquid Gold",
+				"client":"Kraft",
+				"description":"A customizable Flash video experience that allows users to login using their Facebook account to populate content within the video experience such as images, friends, and interests.  Afterwards their unique video can be shared with friends via social media platforms or email.",
 				"thumbnail":{
 					"image":"",
 					"video":""
@@ -338,8 +348,26 @@
 				"href":""
 			}
 		],
+
 		"footer":{
-			
+			"copyright":"2015",
+			"social":{
+				"facebook":{
+
+				},
+				"twitter":{
+
+				},
+				"pinterest":{
+
+				},
+				"googleplus":{
+
+				},
+				"instagram":{
+
+				}
+			}
 		}
 	}
 }
