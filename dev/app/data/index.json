@@ -40,44 +40,138 @@
 		"hero":{
 		},
 
+		"work":[
+			{
+				"name":"Written In The Stars",
+				"client":"AKQA",
+				"description":"To share the holiday cheer, users are thrown into an audio/visual exploration in the palm of their hands with this web application.  When receiving a message from a friend, users enter a stary sky in search of the North Star.  Upon finding it, a particle animation ensues as a custom Radiohead soundtrack plays through their speakers or headphones.  Alternatively users can write their own message in the sky and share the experience on social media or by email.",
+				"thumbnail":{
+					"image":"assets/images/work/written-in-the-stars/thumbnail.jpg",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			},
+			{
+				"name":"Trail View",
+				"client":"Nature Valley",
+				"description":"Celebrating America's natural wonders cannot be better represented achieved that actually going to the locations and exploring all the hidden views they have to offer.  Nature Valley's Trail View Google map web experience was a first of it's kind, allowing users to use Google streetview to explore Yosemite, Grand Canyon, Sequoia, and the Great Smokies.  Along the trail facts about local wildlife, elevation, direction, and a swath of other content ias accessible for the user to discover.",
+				"thumbnail":{
+					"image":"assets/images/work/trail-view/grandcanyon.jpg",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			},
+			{
+				"name":"View Points",
+				"client":"Kenneth Cole",
+				"description":"For Fashion Week in New York City, brands have been trying to harness hip approaches to captivating their audience's attention; what better way that combining social video with a live event?  We harnessed the power of Vine's technology to allow users to explore varying angles of the same fashion show for Kenneth Cole.  Users could view on their phone or desktop computers and watch the show as it happened or go back in time and experience the show from the beginning.",
+				"thumbnail":{
+					"image":"assets/images/work/view-points/thumbnail2.jpg",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			},
+			{
+				"name":"E-commerce Charity",
+				"client":"(RED)",
+				"description":"Bono's charity (RED) was struggling with sales; having depended on print ads their online experience was minimal so they needed an overhaul and their e-commerce experience was born.  With accessible products and sympathetic stories, we wove together an experience online that touched people outside of their computers that urged them to contribute.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			},
+			{
+				"name":"Our Book of Liquid Gold",
+				"client":"Kraft",
+				"description":"A customizable Flash video experience that allows users to login using their Facebook account to populate content within the video experience such as images, friends, and interests.  Afterwards their unique video can be shared with friends via social media platforms or email.",
+				"thumbnail":{
+					"image":"assets/images/work/our-book-ofl-iquid-gold/thumbnail.jpg",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			},
+			{
+				"name":"MyMoet",
+				"client":"Moet & Chandon",
+				"description":"A web experience that allowed users to customize a Moet & Chandon champagne bottle of their choice and purchase it online.",
+				"thumbnail":{
+					"image":"",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			}
+		],
+
 		"awards":[
 			{
 				"name":"Cannes Lion",
-				"rank":"Silver",
 				"image":"",
 				"href":"",
-				"quantity":"2"
-			},
-			{
-				"name":"Cannes Lion",
-				"rank":"Gold",
-				"image":"",
-				"href":"",
-				"quantity":"1"
+				"quantity":"3"
 			},
 			{
 				"name":"Clio",
-				"rank":"Gold",
 				"image":"",
 				"href":"",
 				"quantity":"2"
 			},
 			{
-				"name":"FITC",
-				"rank":"Silver",
-				"image":"",
-				"href":"",
-				"quantity":"2"
-			},
-			{
-				"name":"FWA",
-				"rank":"",
-				"image":"",
-				"href":"",
-				"quantity":"1"
-			},
-			{
-				"name":"One Show Pencil",
+				"name":"Art Directors Club",
 				"rank":"Gold",
 				"image":"",
 				"href":"",
@@ -85,10 +179,9 @@
 			},
 			{
 				"name":"One Show Pencil",
-				"rank":"Bronze",
 				"image":"",
 				"href":"",
-				"quantity":"1"
+				"quantity":"2"
 			},
 			{
 				"name":"Webby",
@@ -98,6 +191,12 @@
 				"quantity":"4"
 			},
 			{
+				"name":"FWA",
+				"image":"",
+				"href":"",
+				"quantity":"3"
+			},
+			{
 				"name":"Awwwards",
 				"rank":"",
 				"image":"",
@@ -105,7 +204,27 @@
 				"quantity":"2"
 			},
 			{
-				"name":"Art Directors Club",
+				"name":"Creativity 42",
+				"rank":"Platinum",
+				"image":"",
+				"href":"",
+				"quantity":"3"
+			},
+			{
+				"name":"Jay Chiat",
+				"rank":"Gold",
+				"image":"",
+				"href":"",
+				"quantity":"1"
+			},
+			{
+				"name":"FITC",
+				"image":"",
+				"href":"",
+				"quantity":"2"
+			},
+			{
+				"name":"LIA",
 				"rank":"Gold",
 				"image":"",
 				"href":"",
@@ -126,32 +245,11 @@
 				"quantity":"1"
 			},
 			{
-				"name":"Jay Chiat",
-				"rank":"Gold",
-				"image":"",
-				"href":"",
-				"quantity":"1"
-			},
-			{
-				"name":"LIA",
-				"rank":"Gold",
-				"image":"",
-				"href":"",
-				"quantity":"1"
-			},
-			{
 				"name":"Design Taxi",
 				"rank":"Gold",
 				"image":"",
 				"href":"",
 				"quantity":"2"
-			},
-			{
-				"name":"Creativity 42",
-				"rank":"Platinum",
-				"image":"",
-				"href":"",
-				"quantity":"3"
 			}
 		],
 
@@ -257,94 +355,18 @@
 				"href":""
 			},
 			{
-				"name":"Novartis",
+				"name":"Caesars Palace",
 				"image":"",
 				"href":""
 			},
 			{
-				"name":"Pfizer",
+				"name":"Verizon",
 				"image":"",
 				"href":""
-			}
-		],
-
-		"work":[
-			{
-				"name":"Written In The Stars",
-				"client":"AKQA",
-				"description":"To share the holiday cheer, users are thrown into an audio/visual exploration in the palm of their hands with this web application.  When receiving a message from a friend, users enter a stary sky in search of the North Star.  Upon finding it, a particle animation ensues as a custom Radiohead soundtrack plays through their speakers or headphones.  Alternatively users can write their own message in the sky and share the experience on social media or by email.",
-				"thumbnail":{
-					"image":"",
-					"video":""
-				},
-				"gallery":[
-					""
-				],
-				"href":""
 			},
 			{
-				"name":"Trail View",
-				"client":"Nature Valley",
-				"description":"Celebrating America's natural wonders cannot be better represented achieved that actually going to the locations and exploring all the hidden views they have to offer.  Nature Valley's Trail View Google map web experience was a first of it's kind, allowing users to use Google streetview to explore Yosemite, Grand Canyon, Sequoia, and the Great Smokies.  Along the trail facts about local wildlife, elevation, direction, and a swath of other content ias accessible for the user to discover.",
-				"thumbnail":{
-					"image":"",
-					"video":""
-				},
-				"gallery":[
-					""
-				],
-				"href":""
-			},
-			{
-				"name":"View Points",
-				"client":"Kenneth Cole",
-				"description":"For Fashion Week in New York City, brands have been trying to harness hip approaches to captivating their audience's attention; what better way that combining social video with a live event?  We harnessed the power of Vine's technology to allow users to explore varying angles of the same fashion show for Kenneth Cole.  Users could view on their phone or desktop computers and watch the show as it happened or go back in time and experience the show from the beginning.",
-				"thumbnail":{
-					"image":"",
-					"video":""
-				},
-				"gallery":[
-					""
-				],
-				"href":""
-			},
-			{
-				"name":"E-commerce Charity",
-				"client":"(RED)",
-				"description":"Bono's charity (RED) was struggling with sales; having depended on print ads their online experience was minimal so they needed an overhaul and their e-commerce experience was born.  With accessible products and sympathetic stories, we wove together an experience online that touched people outside of their computers that urged them to contribute.",
-				"thumbnail":{
-					"image":"",
-					"video":""
-				},
-				"gallery":[
-					""
-				],
-				"href":""
-			},
-			{
-				"name":"Our Book of Liquid Gold",
-				"client":"Kraft",
-				"description":"A customizable Flash video experience that allows users to login using their Facebook account to populate content within the video experience such as images, friends, and interests.  Afterwards their unique video can be shared with friends via social media platforms or email.",
-				"thumbnail":{
-					"image":"",
-					"video":""
-				},
-				"gallery":[
-					""
-				],
-				"href":""
-			},
-			{
-				"name":"MyMoet",
-				"client":"Moet & Chandon",
-				"description":"A web experience that allowed users to customize a Moet & Chandon champagne bottle of their choice and purchase it online.",
-				"thumbnail":{
-					"image":"",
-					"video":""
-				},
-				"gallery":[
-					""
-				],
+				"name":"Samsung",
+				"image":"",
 				"href":""
 			}
 		],
