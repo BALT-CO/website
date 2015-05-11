@@ -84,7 +84,7 @@
 				"client":"Kenneth Cole",
 				"description":"For Fashion Week in New York City, brands have been trying to harness hip approaches to captivating their audience's attention; what better way that combining social video with a live event?  We harnessed the power of Vine's technology to allow users to explore varying angles of the same fashion show for Kenneth Cole.  Users could view on their phone or desktop computers and watch the show as it happened or go back in time and experience the show from the beginning.",
 				"thumbnail":{
-					"image":"assets/images/work/view-points/thumbnail2.jpg",
+					"image":"assets/images/work/view-points/thumbnail.jpg",
 					"video":""
 				},
 				"gallery":[
@@ -103,7 +103,7 @@
 				"client":"(RED)",
 				"description":"Bono's charity (RED) was struggling with sales; having depended on print ads their online experience was minimal so they needed an overhaul and their e-commerce experience was born.  With accessible products and sympathetic stories, we wove together an experience online that touched people outside of their computers that urged them to contribute.",
 				"thumbnail":{
-					"image":"",
+					"image":"assets/images/work/red/thumbnail.jpg",
 					"video":""
 				},
 				"gallery":[
@@ -122,7 +122,7 @@
 				"client":"Kraft",
 				"description":"A customizable Flash video experience that allows users to login using their Facebook account to populate content within the video experience such as images, friends, and interests.  Afterwards their unique video can be shared with friends via social media platforms or email.",
 				"thumbnail":{
-					"image":"assets/images/work/our-book-ofl-iquid-gold/thumbnail.jpg",
+					"image":"assets/images/work/our-book-of-liquid-gold/thumbnail.jpg",
 					"video":""
 				},
 				"gallery":[
@@ -137,11 +137,11 @@
 				]
 			},
 			{
-				"name":"MyMoet",
-				"client":"Moet & Chandon",
-				"description":"A web experience that allowed users to customize a Moet & Chandon champagne bottle of their choice and purchase it online.",
+				"name":"Publishing House",
+				"client":"Conde Nast",
+				"description":"",
 				"thumbnail":{
-					"image":"",
+					"image":"assets/images/work/conde-nast/thumbnail.jpg",
 					"video":""
 				},
 				"gallery":[
@@ -372,7 +372,10 @@
 		],
 
 		"footer":{
+			"name":"Adriaan Balt Louis Schölvinck",
 			"copyright":"2015",
+			"telephone":"917.287.8273",
+			"email":"adriaan@balt.us",
 			"social":{
 				"facebook":{
 
