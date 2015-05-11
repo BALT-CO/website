@@ -17,18 +17,31 @@
 				background: #fff;				
 				width: 100%;
 				margin: auto;
-			}
-			img {
-				width: 100%;
-			}
-			.content {
-				display: block;
-				position: absolute;
-				pointer-events: none;
-				top: 20%;
-				left: 10%;
-				z-index: 1;
-				zoom: 1;
+				picture{
+					display: block;
+					img {
+						width: 100%;
+						display: block;
+					}
+				}
+				.content {
+					display: block;
+					position: absolute;
+					pointer-events: none;
+					top: 20%;
+					left: 10%;
+					z-index: 1;
+					zoom: 1;
+				}
+				&:hover {
+					.content {
+						background: white;
+						color: $font-color;
+					}
+					picture {
+						@include transform( scale(1.1) );
+					}
+				}
 			}
 		}
 	}
