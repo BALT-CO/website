@@ -5,7 +5,15 @@
 		</header>
 		<ul>
 		{{#each this}}
-			<li>{{ name }}</li>
+			{{#if image}}
+			<li>
+				<span class="valign"></span>
+				<img class="vcontent" src="{{ image }}" alt="{{ name }}">
+				<div>{{ name }}</div>
+			</li>
+			{{else}}
+			<li class="svg"><div>{{ name }}</div></li>
+			{{/if}}
 		{{/each}}
 		</ul>
 	</div>

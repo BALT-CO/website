@@ -5,10 +5,13 @@
 			<li>
 				<a href="{{ href }}">
 					<div class="content">
-						<h1>{{{ name }}}</h1>
-						<h3>{{{ client }}}</h3>
+						<div class="copy">
+							<h1>{{{ name }}}</h1>
+							<h3>{{{ client }}}</h3>
+						</div>
+						<div class="bg animate"></div>
 					</div>
-					<picture>
+					<picture class="animate">
 						<img src="{{ thumbnail.image }}" srcset="{{ thumbnail }}" alt="{{ client }} - {{ name }}">
 					</picture>
 				</a>
