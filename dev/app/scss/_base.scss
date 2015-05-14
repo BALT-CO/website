@@ -5,7 +5,6 @@ body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 	font: inherit;
 	font-size: 100%;
 	vertical-align: baseline;
-	@include transition(all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94) );
 }
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -16,6 +15,6 @@ ul, ol, li {
 	list-style: none;
 }
 ::selection {	
-	background: #0F0;
+	background: $selection;
 	color: white !important;
 }

@@ -7,17 +7,18 @@
 		li {
 			@include flexbox();
 			width: 50%;
-			max-height: 500px;
+			max-height: 530px;
 			overflow: hidden;
-			background: #0f0;
-			color: #FFF;
+			color: $color-font;
 			position: relative;
 			a {
 				display: block;
-				background: #fff;				
+				background: #fff;	
 				width: 100%;
 				margin: auto;
 				picture{
+					@include transition(all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) );
+					@include transform( scale(1) );
 					display: block;
 					img {
 						width: 100%;
@@ -27,19 +28,34 @@
 				.content {
 					display: block;
 					position: absolute;
+					overflow: hidden;
 					pointer-events: none;
 					top: 20%;
 					left: 10%;
 					z-index: 1;
 					zoom: 1;
+					.copy {
+						padding: 0 .5em .2em .5em;
+					}
+					.bg {
+						width: 100%;
+						background: #fff;
+						height: 100%;
+						position: absolute;
+						top:91px;
+						z-index: -1;
+						@include transition(all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) );
+					}
 				}
 				&:hover {
 					.content {
-						background: white;
-						color: $font-color;
+						.bg {
+							top: 0;
+						}
+						color: $color-font;
 					}
 					picture {
-						@include transform( scale(1.1) );
+						@include transform( scale(.9) );
 					}
 				}
 			}

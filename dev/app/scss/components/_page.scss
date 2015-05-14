@@ -1,10 +1,17 @@
 body {
-	background: #f9f9f9;
-	color: #1f1f1f;
+	background: $color-bg;
+	color: $color-font;
 }
-section, footer {
+section {
 	margin: 2em;
+}
+footer {
+  padding: 2em;
+  margin: 2em;
+  background: #fff;
 }
 header {
-	margin: 2em;
+	padding: 2em;
+  margin: 1em 0;
+  background: #fff;
 }
