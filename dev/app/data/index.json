@@ -254,8 +254,19 @@
 		],
 
 		"clients":[
+
 			{
-				"name":"Kraft",
+				"name":"Samsung",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Time Warner",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Caesars Palace",
 				"image":"",
 				"href":""
 			},
@@ -265,77 +276,12 @@
 				"href":""
 			},
 			{
-				"name":"Windex",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Stride Gum",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Bottega Veneta",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Moet & Chandon",
-				"image":"",
-				"href":""
-			},
-			{
 				"name":"L'Oreal",
 				"image":"",
 				"href":""
 			},
 			{
-				"name":"Davis Brody Bond",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Conde Nast",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Kenneth Cole",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Desigual",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Chase",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"American Express",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Ford",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"AOL",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Time Inc.",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Time Warner",
+				"name":"Verizon",
 				"image":"",
 				"href":""
 			},
@@ -350,23 +296,78 @@
 				"href":""
 			},
 			{
+				"name":"SC Johnson",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Bottega Veneta",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Ford",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Chase",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"AOL",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Time Inc.",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"American Express",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Mondelez",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Kenneth Cole",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Kraft",
+				"image":"",
+				"href":""
+			},
+			{
+				"name":"Moet & Chandon",
+				"image":"assets/images/logos/Moet-Chandon.png",
+				"href":""
+			},
+			{
+				"name":"Davis Brody Bond",
+				"image":"assets/images/logos/Davis-Brody-Bond.png",
+				"href":""
+			},
+			{
+				"name":"Conde Nast",
+				"image":"assets/images/logos/Conde-Nast.png",
+				"href":""
+			},
+			{
+				"name":"Desigual",
+				"image":"assets/images/logos/Desigual.png",
+				"href":""
+			},
+			{
 				"name":"Maybelline",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Caesars Palace",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Verizon",
-				"image":"",
-				"href":""
-			},
-			{
-				"name":"Samsung",
-				"image":"",
+				"image":"assets/images/logos/Maybelline.png",
 				"href":""
 			}
 		],
