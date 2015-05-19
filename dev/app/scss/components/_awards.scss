@@ -10,6 +10,8 @@ $height: 70;
 }
 #awards {
 	ul {
+    padding: 2em 0;
+		background: $color-bg;
 		text-align: center;
 		li {
 			background-image: url("../images/awards/awards.svg");

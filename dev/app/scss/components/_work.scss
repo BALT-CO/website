@@ -17,7 +17,7 @@
 				width: 100%;
 				margin: auto;
 				picture{
-					@include transition(all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) );
+					@include transition(all .25s cubic-bezier(0.3, 1, 0.21, 0.99) );
 					@include transform( scale(1) );
 					display: block;
 					img {
@@ -44,7 +44,7 @@
 						position: absolute;
 						top:91px;
 						z-index: -1;
-						@include transition(all .25s cubic-bezier(0.25, 0.46, 0.45, 0.94) );
+						@include transition(all .25s cubic-bezier(0.3, 1, 0.21, 0.99) );
 					}
 				}
 				&:hover {
@@ -55,9 +55,20 @@
 						color: $color-font;
 					}
 					picture {
-						@include transform( scale(.9) );
+						@include transform( scale(1) );
 					}
 				}
+			}
+		}
+	}
+}
+
+// TABLET = 768px
+@media (min-width: 1025px){
+	#work {
+		ul {
+			li {
+				width: 33.3333%;
 			}
 		}
 	}

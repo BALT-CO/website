@@ -1,7 +1,17 @@
 #hero {
+  margin: 2em;
 	.logo {
 		width: 30%;
     min-width: 300px;
 		max-width: 400px;
 	}
+  .contact {
+    position: absolute;
+    right: 4em;
+    top: 8em;
+    * {
+      margin: .25em;
+      display: inline-block;
+    }
+  }
 }
