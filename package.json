@@ -1,16 +1,16 @@
 {
 	"directory": {
 		"app": "app",
-		"dest": "../public"
+		"dest": "dist"
 	},
 	"paths": {
 		"global":{
-			"partials":"../global/views/partials/**/*.hbs",
-			"js":"../global/js/**/*.js",
-			"scss":"../global/scss"
+			"partials":"global/views/partials/**/*.hbs",
+			"js":"global/js/**/*.js",
+			"scss":"global/scss"
 		},
 		"page":{
-			"layout":"../global/views/layouts/default.hbs",
+			"layout":"global/views/layouts/default.hbs",
 			"partials": "app/views/partials/**/*.hbs",
 			"pages": "app/views/pages/**/*.hbs",
 			"js": "app/assets/js/**/*.js",

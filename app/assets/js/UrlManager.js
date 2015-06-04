@@ -1,11 +1,11 @@
 
-Class(function PushState(a) {
+Class(function PushState(useHash) {
 	var b = this;
-	if (typeof a !== "boolean") {
-		a = window.location.href.strpos("local") || window.location.href.charAt(0) == "1"
+	if (typeof useHash !== "boolean") {
+		useHash = window.location.href.strpos("local") || window.location.href.charAt(0) == "1"
 	}
 	this.locked = false;
-	this.dispatcher = new StateDispatcher(a);
+	this.dispatcher = new StateDispatcher(useHash);
 	this.getState = function() {
 		return this.dispatcher.getState()
 	};
@@ -28,9 +28,9 @@ Class(function PushState(a) {
 	}
 });
 
-Class(function StateDispatcher(g) {
+Class(function StateDispatcher(useHash) {
 	Inherit(this, Events);
-	var f = this;
+	var scope = this;
 	var i, a;
 	var d = "/";
 	this.locked = false;
@@ -41,7 +41,7 @@ Class(function StateDispatcher(g) {
 	})();
 
 	function b() {
-		if (!Device.system.pushstate || g) {
+		if (!Device.system.pushstate || useHash) {
 			if (Device.detect(["msie 7", "msie 8", "firefox/3", "safari/4"])) {
 				setInterval(function() {
 					var j = c();
@@ -60,25 +60,25 @@ Class(function StateDispatcher(g) {
 	}
 
 	function c() {
-		if (!Device.system.pushstate || g) {
-			var j = window.location.hash;
-			j = j.slice(3);
-			return String(j)
+		if (!Device.system.pushstate || useHash) {
+			var hash = window.location.hash;
+			hash = hash.slice(3);
+			return String(hash)
 		} else {
-			var k = location.pathname.toString();
-			k = d != "/" ? k.split(d)[1] : k.slice(1);
-			k = k || "";
-			return k
+			var path = location.pathname.toString();
+			path = d != "/" ? path.split(d)[1] : path.slice(1);
+			path = path || "";
+			return path
 		}
 	}
 
 	function e() {
 		var j = location.pathname;
-		if (!f.locked && j != a) {
+		if (!scope.locked && j != a) {
 			j = d != "/" ? j.split(d)[1] : j.slice(1);
 			j = j || "";
 			a = j;
-			f.events.fire(HydraEvents.UPDATE, {
+			scope.events.fire(HydraEvents.UPDATE, {
 				value: j,
 				split: j.split("/")
 			})
@@ -92,9 +92,9 @@ Class(function StateDispatcher(g) {
 	}
 
 	function h(j) {
-		if (!f.locked && j != a) {
+		if (!scope.locked && j != a) {
 			a = j;
-			f.events.fire(HydraEvents.UPDATE, {
+			scope.events.fire(HydraEvents.UPDATE, {
 				value: j,
 				split: j.split("/")
 			})
@@ -117,7 +117,7 @@ Class(function StateDispatcher(g) {
 		}
 	};
 	this.setState = function(j) {
-		if (!Device.system.pushstate || g) {
+		if (!Device.system.pushstate || useHash) {
 			if (j != a) {
 				window.location.hash = "!/" + j;
 				a = j
@@ -139,6 +139,6 @@ Class(function StateDispatcher(g) {
 		this.locked = false
 	};
 	this.forceHash = function() {
-		g = true
+		useHash = true
 	}
 });
