@@ -89,7 +89,7 @@ module.exports = function(grunt) {
         browserify: {
             app: {
                 files: {
-                    '<%= pkg.directory.dest %>/assets/js/app.min.js': ['<%= pkg.directory.app %>/assets/js/app.js']
+                    '<%= pkg.directory.dest %>/assets/js/app.js': ['<%= pkg.directory.app %>/assets/js/app.js']
                 },
                 options: {
                     alias: browserifySiteConfig,
