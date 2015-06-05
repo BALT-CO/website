@@ -1,9 +1,11 @@
 (function () {
-    "use strict";
+	"use strict";
+	
+	require('angular');
+	require('angular-route');
 
-    require('./vendor/angular');
-
-    var App = angular.module('boilerplate', []);
-    require('./details')(App);
+	var App = angular.module('balt', ['ngRoute']);
+	require('./routes')(App);
+	require('./work')(App);
 
 }());

@@ -1,40 +1,23 @@
 module.exports = function(App) {
 	"use strict";
 
-	/**
-	 * @ngdoc service
-	 * @name boilerplate.service
-	 * @description
-	 * 
-	 */
-	App.factory('detailsSrv', ['$http', function($http) {
+	console.log ( "details" );
 
-		var _service = {};
+	// /**
+	//  * @ngdoc service
+	//  * @name boilerplate.service
+	//  * @description
+	//  * 
+	//  */
+	// App.factory('detailsSrv', ['$http', function($http) {
 
-		console.log ( "service" );
+	// 	var _service = {};
 
-		return _service;
+	// 	console.log ( "service" );
 
-	}]);
+	// 	return _service;
 
-	/**
-	 * @ngdoc directive
-	 * @name boilerplate.directive
-	 * @description
-	 * 
-	 */
-	App.directive('details', [function() {
-		return {
-			restrict: "C",
-			replace: false,
-			template: "",
-			controller: "detailsCtrl",
-			link: function($scope, elem, attrs) {
-				console.log ( "directive" );
-				$scope.choice = "hi";
-			}
-		}
-	}]);
+	// }]);
 	
 	/**
 	 * @ngdoc controller
@@ -44,17 +27,7 @@ module.exports = function(App) {
 	 */
 	App.controller('detailsCtrl', ['$scope', '$rootScope', 'detailsSrv', function($scope, $rootScope, detailsSrv) {
 
-		$scope.submit = function() {
-			console.log ( "submit!" );
-		};
-
-		$scope.click = function($event) {
-			console.log ( "click!", $event );
-		}
-
-		$scope.keyUp = function($event) {
-			console.log ( "keyPress!", $event.keyCode, $scope.fieldValue );
-		};
+		console.log ("detailsCtrl");
 
 	}]);
 
