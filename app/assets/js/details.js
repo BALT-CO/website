@@ -25,7 +25,7 @@ module.exports = function(App) {
 	 * @description
 	 * 
 	 */
-	App.controller('detailsCtrl', ['$scope', '$rootScope', 'detailsSrv', function($scope, $rootScope, detailsSrv) {
+	App.controller('detailsCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
 
 		console.log ("detailsCtrl");
 

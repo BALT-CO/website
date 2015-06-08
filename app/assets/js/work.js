@@ -6,7 +6,7 @@ module.exports = function(App) {
 	/**
 	 * @ngdoc controller
 	 * @name boilerplate.controller.workButtonCtrl
-	 * @description
+	 * @description 
 	 * @param $scpoe {Object} : 
 	 * @param $attrs {Object} : 
 	 */
