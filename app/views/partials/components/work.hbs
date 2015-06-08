@@ -1,8 +1,15 @@
 <section id="work">
 	<div class="inner">
+		<div class="container-details" ng-view>
+		</div>
 		<div class="container-chooser">
 			<ul>
 			{{#each this}}
+				{{#if quote}}
+				<li class="quote">
+					<div class="inner">{{{ quote }}}</div>
+				</li>
+				{{else}}
 				<li ng-controller="workButtonCtrl">
 					<a href="" ng-click="openWork('{{ slug }}')">
 						<div class="content">
@@ -17,6 +24,7 @@
 						</picture>
 					</a>
 				</li>
+				{{/if}}
 			{{/each}}
 			</ul>
 		</div>
