@@ -42,6 +42,26 @@
 
 		"work":[
 			{
+				"slug":"desigual",
+				"name":"Find some sex, fun & love",
+				"client":"Desigual",
+				"description":"",
+				"thumbnail":{
+					"image":"assets/images/work/desigual/thumbnail-1.jpg",
+					"video":""
+				},
+				"gallery":[
+					""
+				],
+				"href":"",
+				"quotes":[
+					{
+						"copy":"",
+						"source":""
+					}
+				]
+			},
+			{
 				"slug":"written-in-the-stars",
 				"name":"Written In The Stars",
 				"client":"AKQA",
@@ -60,6 +80,10 @@
 						"source":""
 					}
 				]
+			},
+			{
+				"quote":"Responsive, personable and passionate about his craft, which is evidenced by the amount of energy, hours and pride he pours into each project.",
+				"source":"- Katie Bethea"
 			},
 			{
 				"slug":"trail-view",
@@ -120,6 +144,10 @@
 						"source":""
 					}
 				]
+			},
+			{
+				"quote":"Combines some unique skills - the ability to tackle an application development effort from start to finish, coordinate a team of resources, and present eloquently to a client.",
+				"source":"- Luis Hernandez"
 			},
 			{
 				"slug":"our-book-of-liquid-gold",
