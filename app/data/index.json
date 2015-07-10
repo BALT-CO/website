@@ -82,11 +82,7 @@
 				]
 			},
 			{
-				"quote":"Responsive, personable and passionate about his craft, which is evidenced by the amount of energy, hours and pride he pours into each project.",
-				"source":"- Katie Bethea"
-			},
-			{
-				"slug":"trail-view",
+				"slug":"nature-valley",
 				"name":"Trail View",
 				"client":"Nature Valley",
 				"description":"Celebrating America's natural wonders cannot be better represented achieved that actually going to the locations and exploring all the hidden views they have to offer.  Nature Valley's Trail View Google map web experience was a first of it's kind, allowing users to use Google streetview to explore Yosemite, Grand Canyon, Sequoia, and the Great Smokies.  Along the trail facts about local wildlife, elevation, direction, and a swath of other content ias accessible for the user to discover.",
@@ -106,7 +102,7 @@
 				]
 			},
 			{
-				"slug":"view-points",
+				"slug":"kenneth-cole",
 				"name":"View Points",
 				"client":"Kenneth Cole",
 				"description":"For Fashion Week in New York City, brands have been trying to harness hip approaches to captivating their audience's attention; what better way that combining social video with a live event?  We harnessed the power of Vine's technology to allow users to explore varying angles of the same fashion show for Kenneth Cole.  Users could view on their phone or desktop computers and watch the show as it happened or go back in time and experience the show from the beginning.",
@@ -144,10 +140,6 @@
 						"source":""
 					}
 				]
-			},
-			{
-				"quote":"Combines some unique skills - the ability to tackle an application development effort from start to finish, coordinate a team of resources, and present eloquently to a client.",
-				"source":"- Luis Hernandez"
 			},
 			{
 				"slug":"our-book-of-liquid-gold",
