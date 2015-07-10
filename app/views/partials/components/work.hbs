@@ -7,7 +7,7 @@
 				<div class="inner">{{{ quote }}}</div>
 			</li>
 			{{else}}
-			<li ng-controller="workButtonCtrl" ng-mouseover="over()" ng-mouseleave="out()">
+			<li ng-controller="workButtonCtrl" ng-mousemove="move($event)" ng-mouseover="over($event)" ng-mouseleave="out($event)">
 				<a href="" ng-click="openWork('{{ slug }}')">
 					<div class="content">
 						<div class="copy">

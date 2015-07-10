@@ -65,18 +65,19 @@ module.exports = function(App) {
 		};
 
 		$scope.over = function(e) {
-			$element.on('mousemove', function(e) {
-				var width = $element[0].offsetWidth,
-				    height = $element[0].offsetHeight,
-				    field = 10,
-				    mouseX = .4 - e.offsetX / width,
-				    mouseY = .4 - e.offsetY / height,
-				    style = "translate3d(" + Math.round(mouseX * field) + "px," + Math.round(mouseY * field) + "px, 0px)";
-				$element.find("picture").css({
-				    "-webkit-transform": style,
-				    "transform": style,
-				    "moz-transform": style
-				});
+		};
+
+		$scope.move = function(e) {
+			var width = $element[0].offsetWidth,
+			    height = $element[0].offsetHeight,
+			    field = 10,
+			    mouseX = .4 - e.offsetX / width,
+			    mouseY = .4 - e.offsetY / height,
+			    style = "translate3d(" + Math.round(mouseX * field) + "px," + Math.round(mouseY * field) + "px, 0px)";
+			$element.find("picture").css({
+			    "-webkit-transform": style,
+			    "transform": style,
+			    "moz-transform": style
 			});
 		};
 
