@@ -1,33 +1,29 @@
 module.exports = function(App) {
 	"use strict";
 
-	console.log ( "details" );
+	console.log ( "details ctrl" );
 
-	// /**
-	//  * @ngdoc service
-	//  * @name boilerplate.service
-	//  * @description
-	//  * 
-	//  */
-	// App.factory('detailsSrv', ['$http', function($http) {
-
-	// 	var _service = {};
-
-	// 	console.log ( "service" );
-
-	// 	return _service;
-
-	// }]);
-	
 	/**
 	 * @ngdoc controller
 	 * @name boilerplate.controller
 	 * @description
 	 * 
 	 */
-	App.controller('detailsCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+	App.controller('detailsCtrl', ['$scope', '$rootScope', '$routeParams', 'workSrv', function($scope, $rootScope, $routeParams, workSrv) {
 
-		console.log ("detailsCtrl");
+		
+		var data = workSrv.getProjectDetailsByID( $routeParams.name );
+
+		console.log ("detailsCtrl", $routeParams.name, data);
+
+		$rootScope.type = "details";
+		$scope.client = data.client;
+		$scope.campaign = data.campaign;
+		$scope.copy = data.copy;
+		$scope.images = data.images;
+		$scope.images = data.images;
+
+		// TODO display correct data in the template
 
 	}]);
 

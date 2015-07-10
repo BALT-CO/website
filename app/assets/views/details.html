@@ -1,3 +1,10 @@
-<div class="details">
-    <h1>DETAILS!</h1>
-</div>
+<section class="details">
+    <h1>{{ campaign }}</h1>
+    <h3>{{ client }}</h3>
+    <article class="copy">
+        <p ng-repeat="obj in copy">{{ obj }}</p>
+    </article>
+    <article>
+        <img ng-repeat="obj in images"/>{{ obj }}
+    </article>
+</section>
