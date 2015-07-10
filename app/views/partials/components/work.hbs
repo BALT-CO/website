@@ -1,32 +1,28 @@
 <section id="work">
 	<div class="inner">
-		<div class="container-details" ng-view>
-		</div>
-		<div class="container-chooser">
-			<ul>
-			{{#each this}}
-				{{#if quote}}
-				<li class="quote">
-					<div class="inner">{{{ quote }}}</div>
-				</li>
-				{{else}}
-				<li ng-controller="workButtonCtrl">
-					<a href="" ng-click="openWork('{{ slug }}')">
-						<div class="content">
-							<div class="copy">
-								<h1>{{{ name }}}</h1>
-								<h3>{{{ client }}}</h3>
-							</div>
-							<div class="bg animate"></div>
+		<ul>
+		{{#each this}}
+			{{#if quote}}
+			<li class="quote">
+				<div class="inner">{{{ quote }}}</div>
+			</li>
+			{{else}}
+			<li ng-controller="workButtonCtrl" ng-mouseover="over()" ng-mouseleave="out()">
+				<a href="" ng-click="openWork('{{ slug }}')">
+					<div class="content">
+						<div class="copy">
+							<h1>{{{ name }}}</h1>
+							<h3>{{{ client }}}</h3>
 						</div>
-						<picture class="animate">
-							<img src="{{ thumbnail.image }}" srcset="{{ thumbnail.image }}" alt="{{ client }} - {{ name }}">
-						</picture>
-					</a>
-				</li>
-				{{/if}}
-			{{/each}}
-			</ul>
-		</div>
+						<div class="bg animate"></div>
+					</div>
+					<picture class="animate">
+						<img src="{{ thumbnail.image }}" srcset="{{ thumbnail.image }}" alt="{{ client }} - {{ name }}">
+					</picture>
+				</a>
+			</li>
+			{{/if}}
+		{{/each}}
+		</ul>
 	</div>
 </section>

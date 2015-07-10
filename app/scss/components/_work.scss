@@ -28,10 +28,10 @@
 				width: 100%;
 				margin: auto;
 				picture{
-					@include transition(all .25s cubic-bezier(0.3, 1, 0.21, 0.99) );
-					@include transform( scale(1) );
 					display: block;
 					img {
+						@include transition(all .35s cubic-bezier(0.3, 1, 0.21, 0.99) );
+						@include transform( scale(1.15) );
 						width: 100%;
 						display: block;
 					}
@@ -66,7 +66,9 @@
 						color: $color-font;
 					}
 					picture {
-						@include transform( scale(1) );
+						img {
+							@include transform( scale(1.1) );
+						}
 					}
 				}
 			}
