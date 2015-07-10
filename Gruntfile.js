@@ -129,7 +129,7 @@ module.exports = function(grunt) {
 		// https://github.com/gruntjs/grunt-contrib-watch
 		watch: {
 			js: {
-				files: ['<%= pkg.paths.page.js %>'],
+				files: ['<%= pkg.paths.page.js %>','<%= pkg.paths.page.html %>'],
 				tasks: ['browserify'],
 				options: {
 					livereload: true
@@ -150,7 +150,7 @@ module.exports = function(grunt) {
 				}
 			},
 			json: {
-				files: ['<%= pkg.paths.page.data %>','<%= pkg.paths.page.ajax %>'],
+				files: ['<%= pkg.paths.page.data %>','<%= pkg.paths.page.ajax %>','<%= pkg.paths.page.html %>'],
 				tasks: ['copy:dist','assemble:dist'],
 				options: {
 					livereload: true
@@ -198,7 +198,7 @@ module.exports = function(grunt) {
 		// reuse the above build task.  gives us core flexibilty if we want to add more types of tasks in the future
 		'build',
 
-		'configureRewriteRules',
+		// 'configureRewriteRules',
 
 		// Runs WATCH 
 		'concurrent:dist'
