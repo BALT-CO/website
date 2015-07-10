@@ -71,8 +71,8 @@ module.exports = function(App) {
 			var width = $element[0].offsetWidth,
 			    height = $element[0].offsetHeight,
 			    field = 10,
-			    mouseX = .4 - e.offsetX / width,
-			    mouseY = .4 - e.offsetY / height,
+			    mouseX = .2 - e.offsetX / width,
+			    mouseY = .2 - e.offsetY / height,
 			    style = "translate3d(" + Math.round(mouseX * field) + "px," + Math.round(mouseY * field) + "px, 0px)";
 			$element.find("picture").css({
 			    "-webkit-transform": style,
