@@ -1,4 +1,6 @@
 #work {
+	@include transition(all .5s cubic-bezier(0.3, 1, 0.21, 0.99) );
+	@include opacity(1);
 	margin: 0;
 	ul {
 		@include flexbox();
