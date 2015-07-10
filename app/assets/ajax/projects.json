@@ -1,0 +1,114 @@
+[
+	{
+		"slug":"desigual",
+		"client":"Desigual",
+		"campaign":"Find some sex, fun, love",
+		"copy":[
+			"Working for AKQA",
+			"built using AngularJS, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":"http://www.desigual.com"
+		}
+	},
+	{
+		"slug":"written-in-the-stars",
+		"client":"AKQA",
+		"campaign":"Written in the Stars",
+		"copy":[
+			"Working for AKQA",
+			"built using JQuery, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":""
+		}
+	},
+	{
+		"slug":"nature-valley",
+		"client":"Nature Valley",
+		"campaign":"Trail View",
+		"copy":[
+			"Working for AKQA",
+			"built using AngularJS, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":""
+		}
+	},
+	{
+		"slug":"kenneth-cole",
+		"client":"Kenneth Cole",
+		"campaign":"view points",
+		"copy":[
+			"Working for AKQA",
+			"built using AngularJS, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":""
+		}
+	},
+	{
+		"slug":"red",
+		"client":"(RED)",
+		"campaign":"Ecommerce Charity",
+		"copy":[
+			"Working for AKQA",
+			"built using AngularJS, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":""
+		}
+	},
+	{
+		"slug":"our-book-of-liquid-gold",
+		"client":"Kraft",
+		"campaign":"Our Book of Liquid Gold",
+		"copy":[
+			"Working for AKQA",
+			"built using AngularJS, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":""
+		}
+	},
+	{
+		"slug":"conde-nast",
+		"client":"Conde Nast",
+		"campaign":"Publishing House",
+		"copy":[
+			"Working for AKQA",
+			"built using AngularJS, Grunt, etc"
+		],
+		"images":[
+			""
+		],
+		"link":{
+			"label":"",
+			"url":""
+		}
+	}
+]
