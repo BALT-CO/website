@@ -1,12 +1,12 @@
 <section id="work">
 	<div class="inner">
 		<ul>
-		{{#each this}}
-			{{#if quote}}
+		{{#each this ~}}
+			{{#if quote ~}}
 			<li class="quote">
 				<div class="inner">{{{ quote }}}</div>
 			</li>
-			{{else}}
+			{{else ~}}
 			<li ng-controller="workButtonCtrl" ng-mousemove="move($event)" ng-mouseover="over($event)" ng-mouseleave="out($event)">
 				<a href="" ng-click="openWork('{{ slug }}')">
 					<div class="content">
@@ -21,8 +21,8 @@
 					</picture>
 				</a>
 			</li>
-			{{/if}}
-		{{/each}}
+			{{/if ~}}
+		{{/each ~}}
 		</ul>
 	</div>
 </section>
