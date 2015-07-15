@@ -94,12 +94,13 @@ module.exports = function(grunt) {
 					'<%= pkg.directory.dest %>/assets/js/app.js': ['<%= pkg.directory.app %>/assets/js/app.js']
 				},
 				options: {
+					// @TODO transform: ['babelify'],
 					alias: browserifySiteConfig,
 					debug: true
 				}
 			}
 		},
-	    
+
 		// Grunt Connect
 		// https://github.com/gruntjs/grunt-contrib-connect
 		// Used to create a static web server for dev
@@ -111,7 +112,7 @@ module.exports = function(grunt) {
 			},
 			// rules: [{
 			// 	from: "(^((?!css|html|js|img|fonts|\/$).)*$)",
-			// 	to: "$1.html"
+			// 	to: "index.html"
 			// }],
 			dist: {
 				options: {
