@@ -56,12 +56,12 @@ module.exports = function(App) {
 		};
 
 		$scope.out = function(e) {
-			var style = "translate3d(0px,0px, 0px)";
-			$element.find("picture").css({
-			    "-webkit-transform": style,
-			    "transform": style,
-			    "moz-transform": style
-			});
+			// var style = "translate3d(0px,0px, 0px)";
+			// $element.find("picture").css({
+			//     "-webkit-transform": style,
+			//     "transform": style,
+			//     "moz-transform": style
+			// });
 		};
 
 		$scope.over = function(e) {
@@ -69,15 +69,15 @@ module.exports = function(App) {
 
 		$scope.move = function(e) {
 			var width = $element[0].offsetWidth,
-			    height = $element[0].offsetHeight,
-			    field = 10,
-			    mouseX = .2 - e.offsetX / width,
-			    mouseY = .2 - e.offsetY / height,
-			    style = "translate3d(" + Math.round(mouseX * field) + "px," + Math.round(mouseY * field) + "px, 0px)";
+				height = $element[0].offsetHeight,
+				field = 10,
+				mouseX = .2 - e.offsetX / width,
+				mouseY = .2 - e.offsetY / height,
+				style = "translate3d(" + Math.round(mouseX * field) + "px," + Math.round(mouseY * field) + "px, 0px)";
 			$element.find("picture").css({
-			    "-webkit-transform": style,
-			    "transform": style,
-			    "moz-transform": style
+				"-webkit-transform": style,
+				"transform": style,
+				"moz-transform": style
 			});
 		};
 

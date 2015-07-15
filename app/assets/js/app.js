@@ -9,4 +9,6 @@
 	require('./routes')(App);
 	require('./work')(App);
 
+	console.log("Page Bootstrap");
+
 }());
