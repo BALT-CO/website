@@ -1,6 +1,4 @@
 #work {
-	@include transition(all .5s cubic-bezier(0.3, 1, 0.21, 0.99) );
-	@include opacity(1);
 	margin: 0;
 	ul {
 		@include flexbox();
@@ -26,7 +24,7 @@
 			position: relative;
 			a {
 				display: block;
-				background: #fff;	
+				background: #fff;
 				width: 100%;
 				margin: auto;
 				picture{
@@ -69,7 +67,7 @@
 					}
 					picture {
 						img {
-							@include transform( scale(1.1) );
+							@include transform( scale(1.13) );
 						}
 					}
 				}

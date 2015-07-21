@@ -9,7 +9,6 @@ $height: 70;
 	}
 }
 #clients {
-	@include opacity(1);
 	ul {
 		padding: 2em 0;
 		background: $color-bg;
@@ -35,5 +34,5 @@ $height: 70;
 				@include opacity(0);
 			}
 		}
-	} 
+	}
 }
