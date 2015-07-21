@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 	'use strict';
-	
+
 	require('time-grunt')(grunt);
 
 	var browserifySiteConfig = require('./browserify.config.js');
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 						'index.html',
 						'assets/ajax/**/*',
 						'assets/images/**/*',
-						'assets/views/**/*'
+						'assets/js/**/*.html'
 					]
 				}]
 			}
@@ -124,7 +124,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		
+
 		// Watch
 		// Watches for changes to specific files
 		// https://github.com/gruntjs/grunt-contrib-watch
@@ -201,7 +201,7 @@ module.exports = function(grunt) {
 
 		// 'configureRewriteRules',
 
-		// Runs WATCH 
+		// Runs WATCH
 		'concurrent:dist'
 	]);
 

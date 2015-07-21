@@ -17,7 +17,7 @@
       "scss": "app/scss",
       "data": "app/data/**/*.json",
       "ajax": "app/assets/ajax/**/*.json",
-      "html": "app/assets/views/**/*.html"
+      "html": "app/assets/**/*.html"
     }
   },
   "name": "BALT",

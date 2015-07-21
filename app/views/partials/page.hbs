@@ -1,12 +1,5 @@
 <div id="main" role="main" class="\{{ sectionType }}">
 	{{> hero this ~}}
-	{{> quote ~}}
-    {{> details ~}}
-	{{> work work ~}}
-	{{> quote ~}}
-	{{> clients clients ~}}
-	{{> quote ~}}
-	{{> awards awards ~}}
-	{{> quote ~}}
+	<div ng-view autoscroll></div>
 	{{> footer footer ~}}
 </div>

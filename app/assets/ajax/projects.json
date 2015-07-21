@@ -3,12 +3,34 @@
 		"slug":"desigual",
 		"client":"Desigual",
 		"campaign":"Find some sex, fun, love",
-		"copy":[
-			"Working for AKQA",
-			"built using AngularJS, Grunt, etc"
+		"description":[
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		],
-		"images":[
-			""
+		"blocks":[
+			{
+				"copy":"Working for AKQA"
+			},
+			{
+				"image":"assets/images/work/desigual/image-0.jpeg"
+			},
+			{
+				"copy":"built using AngularJS, Grunt, etc"
+			},
+			{
+				"image":"assets/images/work/desigual/image-1.jpeg"
+			},
+			{
+				"image":"assets/images/work/desigual/image-2.jpeg"
+			},
+			{
+				"image":"assets/images/work/desigual/image-3.jpeg"
+			},
+			{
+				"video":"assets/images/work/desigual/video.mp4"
+			},
+			{
+				"image":"assets/images/awards/cannes.svg"
+			}
 		],
 		"link":{
 			"label":"",
