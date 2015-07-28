@@ -16,6 +16,7 @@ module.exports = function(App) {
 			resourceFileLoaded: false,
 
 			getProjectDetailsByID : function( id ) {
+				console.log("getProjectDetailsByID",_service.projects[id] );
 				if ( !_service.projects[id] ) {
 					// _service.load( 'assets/ajax/projects.json', _service.getProjectDetailsByID(id) );
 					// return this.getProjectDetailsByID( id )
@@ -51,6 +52,8 @@ module.exports = function(App) {
 		return _service;
 
 	}]);
+
+	console.log("hi", detailsSrv);
 
 	return App;
 };

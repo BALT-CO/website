@@ -12,10 +12,10 @@ module.exports = function(App) {
 
 		console.log ("detailsCtrl", $routeParams.name, data, detailsSrv.getProjectDetailsByID );
 
-		// $scope.client = data.client;
-		// $scope.campaign = data.campaign;
-		// $scope.description = data.description;
-		// $scope.blocks = data.blocks;
+		$scope.client = data.client;
+		$scope.campaign = data.campaign;
+		$scope.description = data.description;
+		$scope.blocks = data.blocks;
 		// $scope.background = parallaxHelper.createAnimator(.3);
 
 		// TODO display correct data in the template
